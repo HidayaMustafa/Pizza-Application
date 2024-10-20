@@ -50,7 +50,9 @@ Pizza App is an Android application designed for a pizza restaurant, allowing us
 - RESTful API for data retrieval
 - Shared Preferences for user settings
 - Fragments for UI management
+  
+##
 
+![image](https://github.com/user-attachments/assets/622c0c8d-c6a3-41b6-b43d-03368f4b1720) ![image](https://github.com/user-attachments/assets/431a0c76-1296-4f54-b0d4-67fe4132addb)
 
-![image](https://github.com/user-attachments/assets/622c0c8d-c6a3-41b6-b43d-03368f4b1720)
 
