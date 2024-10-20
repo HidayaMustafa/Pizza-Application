@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame"
+    android:backgroundTint="#000000"
+    android:orientation="vertical"
+    tools:context=".ui.Pizza_menu.pizzaDialog">
+
+    <TextView
+        android:id="@+id/pizza_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Pizza Name"
+        android:textColor="#6A936C"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/pizza_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Prepared Order :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pizza_size_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Size - Price:  "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingStart="45dp">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Small"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium  "
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Large"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingStart="0dp">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/priceS"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="  - 10 $"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceM"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:text="  - 20 $"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="  - 30 $"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Quantity : "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_decrease"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text=" - "
+            android:textColor="#000000"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/text_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaintext_grey_theme"
+            android:padding="16dp"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_increase"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:shapeAppearance="@style/Base.Theme.Project" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="_____________________________"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/li"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="  - Total : "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:hint="0 $"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="152dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#6A936C"
+        android:text="Submit"
+        android:textSize="30sp" />
+
+</LinearLayout>

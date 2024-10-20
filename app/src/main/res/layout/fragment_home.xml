@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:textAlignment="viewStart"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/te"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="630dp"
+        android:fontFamily="serif-monospace"
+        android:text=" History of Restaurant:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView566"
+        android:layout_width="379dp"
+        android:layout_height="298dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:fontFamily="serif-monospace"
+        android:text="Corgeous, a beloved pizzeria in Ramallah, was founded by Fadi Al-Hassan, who spent a decade honing his culinary skills across Europe, especially in Italy.\nUpon returning to Ramallah in 1995, he opened Corgeous, blending traditional Italian pizza-making techniques with local flavors.\nKnown for its high-quality ingredients and warm atmosphere, Corgeous has become a local favorite, symbolizing Fadi's dedication to culinary excellence and his rich, global journey."
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="346dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/main2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

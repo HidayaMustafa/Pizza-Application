@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CallOrFindUs.CallOrFindUsFragment">
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="287dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="62dp"
+        android:backgroundTint="#6A936C"
+        android:text="Call Us"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/Base.Theme.Project" />
+
+    <Button
+        android:id="@+id/button_find_us"
+        android:layout_width="287dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="62dp"
+        android:backgroundTint="#6A936C"
+        android:text="Find Us"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/Base.Theme.Project" />
+
+    <Button
+        android:id="@+id/button_email_us"
+        android:layout_width="287dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="62dp"
+        android:backgroundTint="#6A936C"
+        android:text="Email Us"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/Base.Theme.Project" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

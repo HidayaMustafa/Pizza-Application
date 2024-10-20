@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add_special_offers.addSpecialOffersFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="261dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Margarita"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Neapolitan "
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Hawaiian "
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Pepperoni"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="New York Style  "
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Calzone"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Tandoori Chicken"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textSize="16sp">
+
+            <CheckBox
+                android:id="@+id/checkBox31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="BBQ Chicken"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Seafood"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Vegetarian"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Buffalo Chicken"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Mushroom Truffle"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6A936C"
+                android:text="Pesto Chicken"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="643dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:ems="10"
+        android:hint="Enter Offer Name"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:ems="10"
+        android:hint="Start Date"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="false"
+        android:onClick="showStartDatePicker" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:ems="10"
+        android:focusable="false"
+        android:onClick="showEndDatePicker"
+        android:hint="End Date"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:ems="10"
+        android:hint="Enter Total price"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="218dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="666dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6A936C"
+        android:text="Confirm Offer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/Base.Theme.Project" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="604dp"
+        android:text="Choose pizza type :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="623dp"
+        android:src="@drawable/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

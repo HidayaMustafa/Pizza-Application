@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.project.ui.Profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/nav_add_admin"
+        android:name="com.example.project.ui.addAdmin.AddAdminFragment"
+        android:label="@string/menu_add_admin"
+        tools:layout="@layout/fragment_add_admin" />
+    <fragment
+        android:id="@+id/nav_add_offers"
+        android:name="com.example.project.ui.add_special_offers.addSpecialOffersFragment"
+        android:label="@string/menu_addspecialoffers"
+        tools:layout="@layout/fragment_addspecialoffers" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.project.ui.Logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/nav_view_offers"
+        android:name="com.example.project.ui.view_orders.ViewAllOrderFragment"
+        android:label="@string/menu_view_offers"
+        tools:layout="@layout/fragment_view_order" />
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.project.ui.reports.ReportsFragment"
+        android:label="@string/menu_reports"/>
+
+</navigation>

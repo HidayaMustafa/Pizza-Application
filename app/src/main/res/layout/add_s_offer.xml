@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame"
+    android:backgroundTint="#000000"
+    android:orientation="vertical"
+    tools:context=".ui.add_special_offers.AddOffersDialog">
+
+    <TextView
+        android:id="@+id/pizza_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Pizza Name"
+        android:textColor="#6A936C"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/pizza_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Prepared Offer :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pizza_size_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Size - Price:  "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingStart="45dp">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Small"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium  "
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Large"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Quantity : "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/plaintext_grey_theme"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_decrease"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text=" - "
+            android:textColor="#000000"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/text_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaintext_grey_theme"
+            android:padding="16dp"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_increase"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:shapeAppearance="@style/Base.Theme.Project" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#6A936C"
+        android:text="Add to offer"
+        android:textSize="30sp" />
+
+</LinearLayout>

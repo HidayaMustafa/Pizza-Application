@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="title_activity_home_customer">HomeCustomer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home"><b>Home</b></string>
+    <string name="menu_menu"><b>Menu</b></string>
+    <string name="menu_yourorders"><b>Your Orders</b></string>
+    <string name="menu_yourfavorites"><b>Your Favorites</b></string>
+    <string name="menu_specialoffers"><b>Special Offers</b></string>
+    <string name="menu_profile"><b>Profile</b></string>
+    <string name="menu_callorfindus"><b>Call Us Or Find Us</b></string>
+    <string name="menu_logout"><b>Logout</b></string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="menu_add_admin"><b>Add Admin</b></string>
+    <string name="menu_addspecialoffers"><b>Add Special Offers</b></string>
+    <string name="menu_view_offers"><b>View Orders</b></string>
+    <string name="menu_reports"><b>View Reports</b></string>
+
+</resources>
